@@ -22,4 +22,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'simplecov'
   gem.add_development_dependency 'shoulda'
   gem.add_development_dependency 'coveralls', '~> 0.6.7'
+  gem.add_development_dependency 'test-unit'
 end
