@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     datastructures (0.3.0)
+      bsearch
       rake
 
 GEM
@@ -11,6 +12,7 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     ansi (1.4.3)
+    bsearch (1.5.0)
     colorize (0.5.8)
     coveralls (0.6.7)
       colorize
@@ -21,7 +23,7 @@ GEM
     i18n (0.6.5)
     mime-types (1.23)
     multi_json (1.7.7)
-    rake (10.1.0)
+    rake (11.1.2)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     shoulda (3.5.0)
@@ -34,6 +36,7 @@ GEM
       multi_json (~> 1.0)
       simplecov-html (~> 0.7.1)
     simplecov-html (0.7.1)
+    test-unit (2.1.5.0)
     thor (0.16.0)
     turn (0.9.6)
       ansi
@@ -46,4 +49,8 @@ DEPENDENCIES
   datastructures!
   shoulda
   simplecov
+  test-unit
   turn
+
+BUNDLED WITH
+   1.10.5
